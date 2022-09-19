@@ -1,0 +1,8 @@
+<!--index.wxml-->
+
+<view class="container" bindtap="changeColor" capture-bind:longtap="backMusic" style="background-color: {{bgColor}};">
+  <view class="showTime rotate" style="position: relative;">
+    <text id="text" style="position: absolute;  margin-top: -130rpx;margin-left: -470rpx;color: {{color}}; display: {{countDis}};">{{h}}:{{m}}:{{s}}</text>
+    <text id="text" style="position: absolute;  margin-top: -130rpx;margin-left: -470rpx;color: {{color}}; display: {{timeDis}};">{{Time}}</text>
+  </view>
+</view>
